@@ -10,7 +10,7 @@ const Button = ({ className, href, onClick, children, px, white }) => {
     const spanClasses = 'relative z-10';
 
     const renderButton = () => (
-        <button className={classes}>
+        <button className={classes} onClick={onClick}>
             <span className={spanClasses}>{children}</span>
             {ButtonSvg(white)}
         </button>
@@ -77,3 +77,5 @@ export default Button
 
 // all completely reusable and we will be even able to expand on this component even later on and make it more dynamic 
 // for now this is good enough -> we had to learn how to make reusable components 
+
+//onClick={onClick} -- notes in Header.tsx

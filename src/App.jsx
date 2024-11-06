@@ -1,6 +1,7 @@
 import ButtonGradient from './assets/svg/ButtonGradient';
 import Button from './components/Button';
 import Header from './components/Header';
+import Hero from './components/Hero';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
           Something -> we are removing the app because we no longer need it right now we will render the header
         </Button> */}
         <Header />
+        <Hero />
 
       </div>
     </>
